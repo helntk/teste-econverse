@@ -1,0 +1,203 @@
+.features{
+
+}
+
+.grid-features{
+  display: grid;
+  width: 60vw;
+  margin: 0 auto;
+  grid-template-rows:5rem 10rem 10rem 10rem 10rem 5rem;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem;
+  grid-template-areas:  "a1 . "
+                        "a1 a2"
+                        "a3 a2"
+                        "a3 a2"
+                        "a3 a4"
+                        " . a4"
+}
+.area-1{
+    grid-area: a1;
+    background-image: url('../../assets/img/features-img-4.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.area-2{
+    grid-area: a2;
+    background-image: url('../../assets/img/features-img-1.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.area-3{
+    grid-area: a3;
+    background-image: url('../../assets/img/features-img-3.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.area-4{
+    grid-area: a4 ;
+    background-image: url('../../assets/img/features-img-2.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.h3-area-big{
+ font-size: 4.5rem;
+ letter-spacing: 1.5px;
+ color: #ffffff;  
+ text-transform: uppercase;
+ font-weight: 900;
+
+ @media screen and (min-width: 1400px){
+    font-size:1.4rem;
+ }
+
+}
+.p-area-big{
+
+ color: #ffffff;
+ font-size: 1.5rem;
+ font-weight: 300;
+
+ text-transform: uppercase;
+ letter-spacing: 1.5;
+
+ @media screen and (min-width: 1400px){
+    font-size: 1.4rem;
+ }
+}
+
+.h3-area-small{
+    font-size: 4.5rem;
+    letter-spacing: 1.5px;
+    color: #ffffff;  
+    text-transform: uppercase;
+    font-weight: 900;
+   
+    @media screen and (min-width: 1400px){
+       font-size:1.4rem;
+    }
+   
+   }
+   .p-area-small{
+   
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+   
+    @media screen and (min-width: 1400px){
+       font-size: 1.4rem;
+    }
+   }
+
+   .features-button{
+    width: 50%;
+    height: 2.5rem;
+    margin-top:2rem;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    
+    text-transform: uppercase;
+    
+   }
+
+   .features-button:hover{
+ 
+       background-color: white;
+       color: black;
+    
+    
+   }
+
+   .features{
+       padding: 5rem 0;
+   }
+
+   
+.h3-area-f2{
+ font-size: 3rem;
+ letter-spacing: 1.5px;
+ color: #ffffff;  
+ text-transform: uppercase;
+ font-weight: 900;
+
+ @media screen and (min-width: 1400px){
+    font-size:1.4rem;
+ }
+
+}
+
+.h4-area-f2{
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    color: #ffffff;  
+    text-transform: uppercase;
+    font-weight: 900;
+   
+    @media screen and (min-width: 1400px){
+       font-size:1.4rem;
+    }
+   
+   }
+.p-area-f2{
+
+ color: #ffffff;
+ font-size: 1.5rem;
+ font-weight: 300;
+
+ text-transform: uppercase;
+ letter-spacing: 1.5;
+
+ @media screen and (min-width: 1400px){
+    font-size: 1.4rem;
+ }
+}
+
+.h3-area-f2-last{
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    color: #ffffff;  
+    text-transform: uppercase;
+    font-weight: 300;
+   
+    @media screen and (min-width: 1400px){
+       font-size:1.4rem;
+    }
+   
+   }
